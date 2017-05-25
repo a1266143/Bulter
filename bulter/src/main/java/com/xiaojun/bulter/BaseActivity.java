@@ -9,12 +9,15 @@ import butterknife.ButterKnife;
  * BaseActivity
  * Create at 2017/5/24
  */
-public class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_base);
+        setContentView(getLayoutRes());
         ButterKnife.bind(this);
     }
+
+    /* 获取布局文件 */
+    protected abstract int getLayoutRes();
 }
