@@ -16,5 +16,5 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 -
 	dependencies {
-	        compile 'com.github.a1266143:Bulter:V1.0.0'
+	        compile 'com.github.a1266143:Bulter:V1.0.1'
 	}
