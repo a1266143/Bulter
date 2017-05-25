@@ -39,6 +39,7 @@ public class NetUtils {
 
             @Override
             public void onError(Call call, Exception e, int id) {
+                if (call == null) return;
                 callback.getNetError();
             }
 
@@ -74,7 +75,8 @@ public class NetUtils {
 
             @Override
             public void onError(Call call, Exception e, int id) {
-                        callback.getNetError();
+                if (call == null) return;
+                callback.getNetError();
             }
 
             @Override
