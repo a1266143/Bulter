@@ -20,7 +20,7 @@ Step 2. Add the dependency
 		compile 'com.github.a1266143:Bulter:V1.0.*'
 
 	}
-ÒÑÓĞµÄÒÀÀµ¿â
+Already have dependencies below
 -
     compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.jakewharton:butterknife:8.6.0'
