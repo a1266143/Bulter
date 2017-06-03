@@ -19,3 +19,13 @@ Step 2. Add the dependency
 	        
 		compile 'com.github.a1266143:Bulter:V1.0.3'
 	}
+“—”–µƒ“¿¿µø‚
+-
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.jakewharton:butterknife:8.6.0'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.6.0'
+    compile 'com.zhy:okhttputils:2.6.2'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'org.greenrobot:greendao:3.2.2'
+    compile 'com.google.dagger:dagger:2.11'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.11'
