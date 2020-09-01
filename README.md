@@ -21,9 +21,3 @@ Step 2. Add the dependency
 
 	}
 
-
-Already have dependencies below
--
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.zhy:okhttputils:2.6.2'
-    compile 'com.google.code.gson:gson:2.2.4'
